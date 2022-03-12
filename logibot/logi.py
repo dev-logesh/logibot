@@ -1,5 +1,5 @@
 from envparse import env
-from Tianabot import LOGGER
+from logibot import LOGGER
 
 DEFAULTS = {
     "LOAD_MODULES": True,
