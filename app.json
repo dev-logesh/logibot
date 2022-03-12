@@ -53,7 +53,7 @@
       "OWNER_ID": {
          "description": "Your user ID as an integer.",
          "required": true,
-         "value": "1218405248"
+         "value": "1955509952"
       },
       "BOT_ID": {
          "description": "Your bot ID.. Use any other bot to get it.",
@@ -70,29 +70,29 @@
       },
       "OWNER_USERNAME": {
          "description": "Your username without the @",
-         "value": "PrincexBots"
+         "value": "cl_me_logesh"
       },
       "BOT_USERNAME": {
          "description": "Your bot username without the @",
-         "value": "Tiana_Prince_Bot"
+         "value": "logi_ro_bot"
       },
       "ASS_USERNAME": {
          "description": "Your Musicbot Assistant username without the @",
-         "value": "TianaxAssistant"
+         "value": "nopita_music_bot_Assistant"
       },
       "BOT_NAME": {
          "description": "Your Bot Name",
-         "value": "Tiana"
+         "value": "LOGI"
       },
       "UPDATE_CHANNEL": {
          "description": "Your Telegram Bot Update Channel username Without @ like: TianaxUpdates.",
          "required": true,
-         "value": "TianaxUpdates"
+         "value": "LOGI_CHANNEL"
       },
       "SUPPORT_CHAT": {
          "description": "Your Telegram support group chat username Without @ like: TianaxSupport.",
          "required": true,
-         "value": "TianaxSupport"
+         "value": "LOGI_CHANNEL"
       },
       "START_IMG": {
          "description": "Enter Your Bot Image Telegraph Link",
@@ -165,7 +165,7 @@
       "DONATION_LINK": {
          "description": "Optional: link where you would like to receive donations. If you are a noob, better leave it linking to paul",
          "required": false,
-         "value": "https://t.me/PrincexDonateBot"
+         "value": "https://t.me/cl_me_logesh"
       }   
    }
 }
