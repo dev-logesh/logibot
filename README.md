@@ -1,98 +1,148 @@
-<p align="center"><img src="https://telegra.ph/file/8edbffafac3e7f3e8ad10.jpg"></p>
+<h1 align= center><b>⭐️ LOGI MUSIC AND VIDEO BOT ⭐️</b></h1>
+<h3 align = center> A Telegram Music Bot written in Python using Pyrogram and Py-Tgcalls </h3>
 
-<h4 align="center">
-    A Telegram Powerfull Group Managment Bot written in Python using Pyrogram and Telethon.
-</h4>
 <p align="center">
-    <a href="https://t.me/Tiana_Prince_Bot"> Ready-To-Use Bot </a> •
-    <a href="http://www.prince-botz.tk/2022/02/tiana-bot.html?m=1"> Documentation </a> •
-    <a href="https://t.me/TianaxUpdates"> Update Channel </a> •
-    <a href="https://t.me/TianaxSupport"> Support Chat </a> 
+<a href="https://python.org"><img src="http://forthebadge.com/images/badges/made-with-python.svg" alt="made-with-python"></a>
+<br>
+    <img src="https://img.shields.io/github/license/notreallyshikhar/YukkiMusicBot?style=for-the-badge" alt="LICENSE">
+    <img src="https://img.shields.io/github/contributors/notreallyshikhar/YukkiMusicBot?style=for-the-badge" alt="Contributors">
+    <img src="https://img.shields.io/github/repo-size/notreallyshikhar/YukkiMusicBot?style=for-the-badge" alt="Repository Size"> <br>
+    <img src="https://img.shields.io/github/forks/notreallyshikhar/YukkiMusicBot?style=for-the-badge" alt="Forks">
+    <img src="https://img.shields.io/github/stars/notreallyshikhar/YukkiMusicBot?style=for-the-badge" alt="Stars">
+    <img src="https://img.shields.io/github/watchers/notreallyshikhar/YukkiMusicBot?style=for-the-badge" alt="Watchers">
+    <img src="https://img.shields.io/github/commit-activity/w/notreallyshikhar/YukkiMusicBot?style=for-the-badge" alt="Commit Activity">
+    <img src="https://img.shields.io/github/issues/notreallyshikhar/YukkiMusicBot?style=for-the-badge" alt="Issues">
+</p>
+
+<h3 align="center">
+    Ready to use method
+</h3>
+
+<p align="center">
+    A Support Group and ready-to-use running instance of this bot can be found on Telegram <br>
+    <a href="https://t.me/NOPITA_MUSIC_BOT"> NOPITA BOT </a> |
+    <a href="https://t.me/LOGI_CHANNEL"> LOGI </a>
+</p>
+
+
+<h2 align="center">
+   Other Branches
+</h2>
+
+<p align="center">
+<a href="https://github.com/LOGI-LAP/music-video-streamer"><img src="https://img.shields.io/badge/VIDEO%20AND%20MUSIC ANOTHER REPO-blueviolet?style=for-the-badge" width="250""/</a>
 </p>
     
-# Tiana Bot
-#### Tiana is a Telegram group managment bot made using Telethon and Pyrogram which makes it modern and faster than most of the exisitng Telegram Chat Managers.
-<p align="center"><img src="https://telegra.ph/file/fae3dd2a2c6e491e4893e.jpg"></p>
+<h2 align="center">
+   Requirements
+</h2>
 
-#### Tiana's features over other bots:
-- Modern
-- Fast
-- Fully open-source
-- Frequently updated
-- Multi Language Support [Soon]
-- Advanced Federation System With Buttons
-- Advanced Api
-- Smart Ai System
-- Easy To Use
+<p align="center">
+    <a href="https://www.python.org/downloads/release/python-390/"> Python3.9 </a> |
+    <a href="https://docs.pyrogram.org/intro/setup#api-keys"> Telegram API Key </a> |
+    <a href="https://t.me/botfather"> Telegram Bot Token </a> |
+    <a href="https://telegra.ph/How-To-get-Mongodb-URI-04-06"> MongoDB URI </a>
+</p>
 
-Can be found on Telegram as [@TianaRobot](https://t.me/TIANA_PRINCE_BOT)
+<h2 align="center">
+   Stay Up-to-Date
+</h2>
 
-## Deployment
-First Step!
+<p align="center"><img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/1c63d830343079.564a747651c89.jpg" alt="logi-lab Github" width="1000px" /></p>
 
-Star ⭐ the repository!!
-It really motivates me to continue this project further
 
-Read [Docs](http://www.prince-botz.tk/2022/02/tiana-bot.html?m=1) for Detailed Description and Setup Guide on deploying Bot.
 
-> Click on buttons to expand!
-<details>
-<summary><b>🔗 Requirements</b></summary>
-<br>
-    
-- [Python3.9](https://www.python.org/downloads/release/python-390/)
-- [Telegram API Key](https://docs.pyrogram.org/intro/setup#api-keys)
-- [Telegram Bot Token](https://t.me/botfather)
-- [MongoDB URI](https://telegra.ph/How-To-get-Mongodb-URI-04-06)
-
-</details>
-
-<details>
-<summary><b>🔗 Deploy to Heroku</b></summary>
-<br>
-
-> Heroku has two vars[ HEROKU_API_KEY & HEROKU_APP_NAME ] for Updater to work. 
-> By setting those two vars you can get logs of your heroku app, set var, edit var, delete vars , check dyno usage and update bot. 
-> Those two vars are not Mandatory! You can leave them blank too. 
-    
-<h4>Click the button below to deploy Tiana Group Managment Bot on Heroku!</h4>    
-<p><a href="https://heroku.com/deploy?template=https://github.com/Prince-Botz/TianaBot"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="200""/></a></p>
-
-<h4>Click the button below to deploy Tiana Music Bot on Heroku!</h4>    
-<p><a href="https://heroku.com/deploy?template=https://github.com/Prince-Botz/TianaxMusic"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="200""/></a></p> 
-</details>
-
-<details>
-<summary><b>🔗 Deploy to VPS</b></summary>
-<br>
+<h2 align="center">
+   Install Locally Or On A VPS
+</h2>
 
 
 ```console
-$ git clone https://github.com/Prince-Botz/TianaBot
-$ cd TianaBot
-$ pip3 install -U -r requirements.txt
-$ cp sample.env .env
+logi@MacBook~ $ git clone https://github.com/LOGI-LAB/music-video-bot
+logi@MacBook~ $ cd music-video-bot
+logi@MacBook~ $ pip3 install -U -r requirements.txt
+logi@MacBook~ $ cp sample.env .env
 ```
-> Edit .env with your values and then start bot with
+
+<h3 align="center">
+    Edit <b>.env</b> with your own values and Run Bot
+</h3>
+
 ```console
-$ bash start
+logi@MacBook~ $ bash start
+```
+## 🎭 Preview
+<p align="center">
+  <img src="https://store-images.s-microsoft.com/image/apps.56117.13510798887380474.a6b0a1e0-8433-417c-af5a-aed64dfe8859.c85b64d8-e3dc-4a20-b3bd-422c1dafd52e?w=540&h=432&q=60">
+</p>
+
+
+<h2 align="center">
+   Other Deployment Methods
+</h2>
+
+<p align="center">
+<a href="https://dashboard.heroku.com/new?template=https://github.com/LOGI-LAB/music-video-bot"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="250""/</a>  
+
+</p>
+
+<h2 align="center">
+   Generating Pyrogram Session
+</h2>
+
+<p align="center">
+<a href="https://t.me/SessionStringGeneratorZBot"><img src="https://img.shields.io/badge/Generate%20On%20Repl-blueviolet?style=for-the-badge&logo=appveyor" width="245""/></a>
+ </p>  
+
+<h3 align="center">
+    OR
+</h3>
+
+```console
+logi@MacBook~ $ git clone https://github.com/LOGI-LAP/music-video-bot
+logi@MacBook~ $ cd music-video-bot
+logi@MacBook~ $ pip3 install pyrogram TgCrypto
+logi@MacBook~ $ python3 gen_session.py
 ```
 
-</details>
 
-## Contact & Support
+<h2 align="center">
+   Config Vars
+</h2>
 
-- [Telegram Channel](https://t.me/TianaxUpdates)
-- [Telegram Support Group](https://t.me/TianaxSupport)
-- [Contact Owner](https://t.me/PrincexAssistantBot)
+1. `API_ID` : Assistant Account Telegram API_ID, get it from my.telegram.org
+2. `API_HASH` : Assistant Account Telegram API_HASH, get it from my.telegram.org
+3. `BOT_TOKEN` : Your Telegram Bot Token, get it from @Botfather (Make sure Inline is turned On)
+4. `SESSION_STRING` : Pyrogram Session String of Assistant Account.
+5. `MUSIC_BOT_NAME` : A name for your Music bot.
+6. `MONGO_DB_URI` : MongoDB Database URL.
+7. `LOG_GROUP_ID` : Chat ID where bot will log everything. Use Group Chats Only.
+8. `DURATION_LIMIT` : Duration Limit for Music (Mins)
+9. `SUDO_USERS` : Sudo Users for Bot. (For multiple users seperate IDs with space)
+10. `OWNER_ID`: Owner ID of Bot
+11. `SUPPORT_GROUP` : Support Group Link (Leave blank if you don't have one)
+12. `SUPPORT_CHANNEL` : Support Channel Link ( Leave blank if you don't have one)
+13. `ASSISTANT_PREFIX` : Prefix for Assistant Commands
+
+
+<h2 align="center">
+   Contact
+</h2>
+
+<p align="center">
+<a href="https://t.me/logi_channel"><img src="https://img.shields.io/badge/logi%20Channel-blueviolet?style=for-the-badge&logo=telegram" width="200""/</a>
+<a href="https://t.me/cl_me_logesh"><img src="https://img.shields.io/badge/Contact%20Owner-blueviolet?style=for-the-badge&logo=telegram" width="202""/</a>  
+</p>
+
+
 
 ## License
 
-Distributed under the [GNU General Public License v3.0 License.](https://github.com/Prince-Botz/TianaBot/blob/main/LICENSE) See `LICENSE.md` for more information.
+Distributed under the [GNU General Public License v3.0 License.](https://github.com/LOGI-LAB/music-video-bot/blob/master/LICENSE) See `LICENSE.md` for more information.
 
 ## Acknowledgements
 
-Special thanks to these amazing projects/people which/who help power Tiana Bot:
+Special thanks to these amazing projects/people which/who help power logi Music and video Bot:
+    
+- [TheHamkerCat](https://github.com/TheHamkerCat)
 
-- [Prince](https://t.me/NoobxCoder) 
-- [Blaze](https://t.me/PiroxPower)
