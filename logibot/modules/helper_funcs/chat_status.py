@@ -403,6 +403,6 @@ def connection_status(func):
 
 
 # Workaround for circular import with connection.py
-from Tianabot.modules import connection
+from logibot.modules import connection
 
 connected = connection.connected
