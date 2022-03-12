@@ -1,17 +1,18 @@
 {
-      "name": "Tiana Bot",
-      "logo": "https://telegra.ph/file/fae3dd2a2c6e491e4893e.jpg",
-      "description": "A Telegram Powerfull Group Managment Bot written in Python using Pyrogram and Telethon",
+      "name": "LOGI BOT",
+      "logo": "https://te.legra.ph/file/014a1a289998a548996b9.jpg",
+      "description": "A Telegram Powerfull Group Managment Bot written in Python using Pyrogram and Telethon ,try and enjoy it✨",
       "keywords": [
+           "LOGI-LAB"
          "telegram",
          "anime",
          "group",
          "manager",
-         "tiana",
-         "tianabot",
+         "logi",
+         "logibot",
          "telegram"
       ],   
-   "repository": "https://github.com/Prince-Botz/TianaBot",
+   "repository": "https://github.com/LOGI-LAB/logibot/",
    "addons": [
       {
          "options": {
