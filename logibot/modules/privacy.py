@@ -5,7 +5,7 @@ from telegram.ext import CommandHandler, CallbackQueryHandler, run_async
 from logibot import dispatcher, DRAGONS, DEV_USERS
 
 PRIVACY_P_TEXT = """
-* Our contact details * \n*Name*: LOOGI \n*Telegram*: https://t.me/cl_me_logesh
+* Our contact details * \n*Name*: LOGI \n*Telegram*: https://t.me/cl_me_logesh
 \n\nThe bot has been made to *protect* and preserve *privacy* as best as possible. \nThe proper functioning of the bot is defined as the data required for all the commands in the /help to work as expected.
 \n\nOur privacy policy may change from time to time. If we make any material changes to our policies, we will place a prominent notice on https://t.me/logi_channel.
 """
@@ -292,7 +292,7 @@ def greyson_cancel_callback(update, context):
             disable_web_page_preview=True
           )
 
-__mod_name__ = "Pʀɪᴠᴀᴄʏ"
+__mod_name__ = "✨Pʀɪᴠᴀᴄʏ✨"
 
 __help__ = """
 The privacy module allows you to see the bot privacy policy, as well as view and delete the data the bot stores about you.
