@@ -574,7 +574,7 @@ def delsticker(update, context):
             "Please reply to sticker message to del sticker"
         )
 
-__mod_name__ = "Sᴛɪᴄᴋᴇʀꜱ"
+__mod_name__ = "✨Sᴛɪᴄᴋᴇʀꜱ✨"
 
 __help__ = """
 /stickerid - reply to a sticker to me to tell you its file ID.
