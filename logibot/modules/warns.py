@@ -19,7 +19,7 @@ from logibot.modules.helper_funcs.extraction import (
     extract_user,
     extract_user_and_text,
 )
-from lofibot.modules.helper_funcs.filters import CustomFilters
+from logibot.modules.helper_funcs.filters import CustomFilters
 from logibot.modules.helper_funcs.misc import split_message
 from logibot.modules.helper_funcs.string_handling import split_quotes
 from logibot.modules.log_channel import loggable
