@@ -3,7 +3,7 @@ import json
 import os
 from typing import Optional
 
-from Tianabot import (
+from logibot import (
     DEV_USERS,
     OWNER_ID,
     DRAGONS,
