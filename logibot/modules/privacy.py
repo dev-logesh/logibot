@@ -5,9 +5,9 @@ from telegram.ext import CommandHandler, CallbackQueryHandler, run_async
 from logibot import dispatcher, DRAGONS, DEV_USERS
 
 PRIVACY_P_TEXT = """
-* Our contact details * \n*Name*: TianaBot \n*Telegram*: https://t.me/TianaxSupport
+* Our contact details * \n*Name*: LOOGI \n*Telegram*: https://t.me/cl_me_logesh
 \n\nThe bot has been made to *protect* and preserve *privacy* as best as possible. \nThe proper functioning of the bot is defined as the data required for all the commands in the /help to work as expected.
-\n\nOur privacy policy may change from time to time. If we make any material changes to our policies, we will place a prominent notice on https://t.me/TianaxUpdates.
+\n\nOur privacy policy may change from time to time. If we make any material changes to our policies, we will place a prominent notice on https://t.me/logi_channel.
 """
 
 PRIVACY_STRING = """Select one of the below options for more information about how the bot handles your privacy."""
@@ -59,9 +59,9 @@ def greyson_policy_callback(update, context):
     query = update.callback_query
     if query.data == "policy_":
         query.message.edit_text(
-            text=""" * Our contact details * \n*Name*: Tianabot \n*Telegram*: https://t.me/TianaxSupport
+            text=""" * Our contact details * \n*Name*: LOGI \n*Telegram*: https://t.me/cl_me_logesh
 \nThe bot has been made to *protect* and preserve *privacy* as best as possible. \nThe proper functioning of the bot is defined as the data required for all the commands in the /help to work as expected.
-\nOur privacy policy may change from time to time. If we make any material changes to our policies, we will place a prominent notice on https://t.me/TianaxSupport.""",
+\nOur privacy policy may change from time to time. If we make any material changes to our policies, we will place a prominent notice on https://t.me/logi_channel.""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
