@@ -115,7 +115,7 @@ $ cp sample.env .env
 10. `OWNER_ID`: Owner ID of Bot
 11. `SUPPORT_GROUP` : Support Group Link (Leave blank if you don't have one)
 12. `SUPPORT_CHANNEL` : Support Channel Link ( Leave blank if you don't have one)
-13. `HEROKU_API_KEY ` : Your Heroku API key, get it from 'https://dashboard.heroku.com/account .
+13. `HEROKU_API_KEY ` : Your Heroku API key, get it from 'dashboard.heroku.com/account .
 
 
 <h2 align="center">
