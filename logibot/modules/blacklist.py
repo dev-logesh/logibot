@@ -6,18 +6,18 @@ from telegram.error import BadRequest
 from telegram.ext import CommandHandler, MessageHandler, Filters, run_async
 from telegram.utils.helpers import mention_html
 
-import Tianabot.modules.sql.blacklist_sql as sql
-from Tianabot import dispatcher, LOGGER
-from Tianabot.modules.disable import DisableAbleCommandHandler
-from Tianabot.modules.helper_funcs.chat_status import user_admin, user_not_admin
-from Tianabot.modules.helper_funcs.extraction import extract_text
-from Tianabot.modules.helper_funcs.misc import split_message
-from Tianabot.modules.log_channel import loggable
-from Tianabot.modules.warns import warn
-from Tianabot.modules.helper_funcs.string_handling import extract_time
+import logibot.modules.sql.blacklist_sql as sql
+from logibot import dispatcher, LOGGER
+from logibot.modules.disable import DisableAbleCommandHandler
+from logibot.modules.helper_funcs.chat_status import user_admin, user_not_admin
+from logibot.modules.helper_funcs.extraction import extract_text
+from logibot.modules.helper_funcs.misc import split_message
+from logibot.modules.log_channel import loggable
+from logibot.modules.warns import warn
+from logibot.modules.helper_funcs.string_handling import extract_time
 from Tianabot.modules.connection import connected
-from Tianabot.modules.sql.approve_sql import is_approved
-from Tianabot.modules.helper_funcs.alternate import send_message, typing_action
+from logibot.modules.sql.approve_sql import is_approved
+from logibot.modules.helper_funcs.alternate import send_message, typing_action
 
 BLACKLIST_GROUP = 11
 
@@ -449,7 +449,7 @@ def __stats__():
     )
 
 
-__mod_name__ = "Bʟᴀᴄᴋʟɪsᴛ"
+__mod_name__ = "✨Bʟᴀᴄᴋʟɪsᴛ✨"
 
 __help__ = """
 
