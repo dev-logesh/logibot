@@ -1,27 +1,26 @@
-<h1 align= center><b>⭐️ LOGI MUSIC AND VIDEO BOT ⭐️</b></h1>
-<h3 align = center> A Telegram Music Bot written in Python using Pyrogram and Py-Tgcalls </h3>
+<h1 align= center><b>⭐️ LOGI GROUP MANAGEMENT BOT ⭐️</b></h1>
+<h3 align = center> LOGI is a Telegram group managment bot made using Telethon and Pyrogram which makes it modern and faster than most of the exisitng Telegram Chat Managers.</h3>
+
+<p align="center"><img src="https://te.legra.ph/file/772a084488dbac5eafd7a.jpg"></p>
 
 <p align="center">
 <a href="https://python.org"><img src="http://forthebadge.com/images/badges/made-with-python.svg" alt="made-with-python"></a>
-<br>
-    <img src="https://img.shields.io/github/license/notreallyshikhar/YukkiMusicBot?style=for-the-badge" alt="LICENSE">
-    <img src="https://img.shields.io/github/contributors/notreallyshikhar/YukkiMusicBot?style=for-the-badge" alt="Contributors">
-    <img src="https://img.shields.io/github/repo-size/notreallyshikhar/YukkiMusicBot?style=for-the-badge" alt="Repository Size"> <br>
-    <img src="https://img.shields.io/github/forks/notreallyshikhar/YukkiMusicBot?style=for-the-badge" alt="Forks">
-    <img src="https://img.shields.io/github/stars/notreallyshikhar/YukkiMusicBot?style=for-the-badge" alt="Stars">
-    <img src="https://img.shields.io/github/watchers/notreallyshikhar/YukkiMusicBot?style=for-the-badge" alt="Watchers">
-    <img src="https://img.shields.io/github/commit-activity/w/notreallyshikhar/YukkiMusicBot?style=for-the-badge" alt="Commit Activity">
-    <img src="https://img.shields.io/github/issues/notreallyshikhar/YukkiMusicBot?style=for-the-badge" alt="Issues">
+</h4>
+<p align="center">
+    <a href="https://t.me/logi_ro_Bot"> Ready-To-Use Bot </a> •
+    <a href="https://github.com/LOGI-LAB/logibot"> Documentation </a> •
+    <a href="https://t.me/logi_channel"> Update Channel </a> •
+    <a href="https://t.me/logi_channel"> Support Chat </a> 
 </p>
-
 <h3 align="center">
     Ready to use method
 </h3>
 
 <p align="center">
-    A Support Group and ready-to-use running instance of this bot can be found on Telegram <br>
-    <a href="https://t.me/NOPITA_MUSIC_BOT"> NOPITA BOT </a> |
-    <a href="https://t.me/LOGI_CHANNEL"> LOGI </a>
+    * <a href="https://t.me/logi_ro_bot"> LOGI BOT </a> | +Add me to you group </a> .
+    * Make me as a group admin with all rights </a> .
+    * ENJoy It ! . 
+   
 </p>
 
 
@@ -30,7 +29,8 @@
 </h2>
 
 <p align="center">
-<a href="https://github.com/LOGI-LAP/music-video-streamer"><img src="https://img.shields.io/badge/VIDEO%20AND%20MUSIC ANOTHER REPO-blueviolet?style=for-the-badge" width="250""/</a>
+<a href="https://github.com/LOGI-LAP/music-video-streamer"><img src="https://img.shields.io/badge/VIDEO%20AND%20MUSIC REPO 1 -green?style=for-the-badge" width="250""/</a>
+    <a href="https://github.com/LOGI-LAB/music-video-bot"><img src="https://img.shields.io/badge/VIDEO%20AND%20MUSIC REPO 2 -yellow?style=for-the-badge" width="250""/</a>
 </p>
     
 <h2 align="center">
@@ -58,10 +58,10 @@
 
 
 ```console
-logi@MacBook~ $ git clone https://github.com/LOGI-LAB/music-video-bot
-logi@MacBook~ $ cd music-video-bot
-logi@MacBook~ $ pip3 install -U -r requirements.txt
-logi@MacBook~ $ cp sample.env .env
+$ git clone https://github.com/LOGI-LAB/logiBot
+$ cd logiBot
+$ pip3 install -U -r requirements.txt
+$ cp sample.env .env
 ```
 
 <h3 align="center">
@@ -69,7 +69,7 @@ logi@MacBook~ $ cp sample.env .env
 </h3>
 
 ```console
-logi@MacBook~ $ bash start
+ $ bash start
 ```
 ## 🎭 Preview
 <p align="center">
@@ -85,24 +85,17 @@ logi@MacBook~ $ bash start
 <a href="https://dashboard.heroku.com/new?template=https://github.com/LOGI-LAB/logibot"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="250""/</a>  
 
 </p>
-
-<h2 align="center">
-   Generating Pyrogram Session
-</h2>
-
-<p align="center">
-<a href="https://t.me/SessionStringGeneratorZBot"><img src="https://img.shields.io/badge/Generate%20On%20Repl-blueviolet?style=for-the-badge&logo=appveyor" width="245""/></a>
- </p>  
+ 
 
 <h3 align="center">
     OR
 </h3>
 
 ```console
-logi@MacBook~ $ git clone https://github.com/LOGI-LAP/music-video-bot
-logi@MacBook~ $ cd music-video-bot
-logi@MacBook~ $ pip3 install pyrogram TgCrypto
-logi@MacBook~ $ python3 gen_session.py
+$ git clone https://github.com/Prince-Botz/TianaBot
+$ cd TianaBot
+$ pip3 install -U -r requirements.txt
+$ cp sample.env .env
 ```
 
 
@@ -113,16 +106,16 @@ logi@MacBook~ $ python3 gen_session.py
 1. `API_ID` : Assistant Account Telegram API_ID, get it from my.telegram.org
 2. `API_HASH` : Assistant Account Telegram API_HASH, get it from my.telegram.org
 3. `BOT_TOKEN` : Your Telegram Bot Token, get it from @Botfather (Make sure Inline is turned On)
-4. `SESSION_STRING` : Pyrogram Session String of Assistant Account.
-5. `MUSIC_BOT_NAME` : A name for your Music bot.
+4. `ASS_USERNAME` : Music bot asstant username.
+5. `BOT_NAME` : A name for your  bot.
 6. `MONGO_DB_URI` : MongoDB Database URL.
 7. `LOG_GROUP_ID` : Chat ID where bot will log everything. Use Group Chats Only.
-8. `DURATION_LIMIT` : Duration Limit for Music (Mins)
+8. `BOT_USERNAME` : Bot username .
 9. `SUDO_USERS` : Sudo Users for Bot. (For multiple users seperate IDs with space)
 10. `OWNER_ID`: Owner ID of Bot
 11. `SUPPORT_GROUP` : Support Group Link (Leave blank if you don't have one)
 12. `SUPPORT_CHANNEL` : Support Channel Link ( Leave blank if you don't have one)
-13. `ASSISTANT_PREFIX` : Prefix for Assistant Commands
+13. `HEROKU_API_KEY ` : Your Heroku API key, get it from 'https://dashboard.heroku.com/account .
 
 
 <h2 align="center">
@@ -138,11 +131,5 @@ logi@MacBook~ $ python3 gen_session.py
 
 ## License
 
-Distributed under the [GNU General Public License v3.0 License.](https://github.com/LOGI-LAB/music-video-bot/blob/master/LICENSE) See `LICENSE.md` for more information.
-
-## Acknowledgements
-
-Special thanks to these amazing projects/people which/who help power logi Music and video Bot:
-    
-- [TheHamkerCat](https://github.com/TheHamkerCat)
+Distributed under the [GNU General Public License v3.0 License.](https://github.com/LOGI-LAB/logibot/blob/master/LICENSE) See `LICENSE.md` for more information.
 
