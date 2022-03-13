@@ -1,17 +1,18 @@
 {
-      "name": "Tiana Bot",
-      "logo": "https://telegra.ph/file/fae3dd2a2c6e491e4893e.jpg",
-      "description": "A Telegram Powerfull Group Managment Bot written in Python using Pyrogram and Telethon",
+      "name": "LOGI BOT",
+      "logo": "https://te.legra.ph/file/772a084488dbac5eafd7a.jpg",
+      "description": "A Telegram Powerfull Group Managment Bot written in Python using Pyrogram and Telethon , try and enjoy it!",
       "keywords": [
+         "logi-lab",
          "telegram",
          "anime",
          "group",
          "manager",
-         "tiana",
-         "tianabot",
+         "logi",
+         "logibot",
          "telegram"
       ],   
-   "repository": "https://github.com/Prince-Botz/TianaBot",
+   "repository": "https://github.com/LOGI-LAB/logibot/",
    "addons": [
       {
          "options": {
@@ -52,7 +53,7 @@
       "OWNER_ID": {
          "description": "Your user ID as an integer.",
          "required": true,
-         "value": "1218405248"
+         "value": "1955509952"
       },
       "BOT_ID": {
          "description": "Your bot ID.. Use any other bot to get it.",
@@ -69,34 +70,34 @@
       },
       "OWNER_USERNAME": {
          "description": "Your username without the @",
-         "value": "PrincexBots"
+         "value": "cl_me_logesh"
       },
       "BOT_USERNAME": {
          "description": "Your bot username without the @",
-         "value": "Tiana_Prince_Bot"
+         "value": "logi-ro-bot"
       },
       "ASS_USERNAME": {
          "description": "Your Musicbot Assistant username without the @",
-         "value": "TianaxAssistant"
+         "value": "nopita_music_bot_Assistant"
       },
       "BOT_NAME": {
          "description": "Your Bot Name",
-         "value": "Tiana"
+         "value": "LOGI"
       },
       "UPDATE_CHANNEL": {
          "description": "Your Telegram Bot Update Channel username Without @ like: TianaxUpdates.",
          "required": true,
-         "value": "TianaxUpdates"
+         "value": "LOGI_CHANNEL"
       },
       "SUPPORT_CHAT": {
          "description": "Your Telegram support group chat username Without @ like: TianaxSupport.",
          "required": true,
-         "value": "TianaxSupport"
+         "value": "LOGI_CHANNEL"
       },
       "START_IMG": {
          "description": "Enter Your Bot Image Telegraph Link",
          "required": true,
-         "value": ""
+         "value": "https://te.legra.ph/file/772a084488dbac5eafd7a.jpg"
       },
       "BOT_TUT": {
          "description": "Enter Your Bot Setup Video Tutorial Telegraph Link Leave As it is If You Dont Have",
@@ -164,7 +165,7 @@
       "DONATION_LINK": {
          "description": "Optional: link where you would like to receive donations. If you are a noob, better leave it linking to paul",
          "required": false,
-         "value": "https://t.me/PrincexDonateBot"
+         "value": "https://t.me/cl_me_logesh"
       }   
    }
 }
