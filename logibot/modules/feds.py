@@ -25,7 +25,7 @@ from logibot.modules.helper_funcs.extraction import (
     extract_user,
     extract_user_fban,
 )
-from lofibot.modules.helper_funcs.string_handling import markdown_parser
+from logibot.modules.helper_funcs.string_handling import markdown_parser
 from telegram import (
     InlineKeyboardButton,
     InlineKeyboardMarkup,
