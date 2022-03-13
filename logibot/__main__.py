@@ -361,7 +361,7 @@ def help_button(update, context):
 
 
 @run_async
-def logi_callback_handler(update, context):
+def Tiana_callback_handler(update, context):
     query = update.callback_query
     if query.data == "logi_":
         query.message.edit_text(
@@ -1192,7 +1192,7 @@ def main():
     settings_handler = CommandHandler("settings", get_settings)
     settings_callback_handler = CallbackQueryHandler(settings_button, pattern=r"stngs_")
 
-    about_callback_handler = CallbackQueryHandler(logi_callback_handler, pattern=r"logi_")
+    about_callback_handler = CallbackQueryHandler(Tiana_callback_handler, pattern=r"logi_")
     logi_callback_handler = CallbackQueryHandler(logi_about_callback, pattern=r"about_")
   
     donate_handler = CommandHandler("donate", donate)
