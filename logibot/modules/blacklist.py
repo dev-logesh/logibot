@@ -15,7 +15,7 @@ from logibot.modules.helper_funcs.misc import split_message
 from logibot.modules.log_channel import loggable
 from logibot.modules.warns import warn
 from logibot.modules.helper_funcs.string_handling import extract_time
-from Tianabot.modules.connection import connected
+from logibot.modules.connection import connected
 from logibot.modules.sql.approve_sql import is_approved
 from logibot.modules.helper_funcs.alternate import send_message, typing_action
 
