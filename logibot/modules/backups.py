@@ -20,7 +20,7 @@ from logibot.modules.sql import disable_sql as disabledsql
 
 # from logibot.modules.sql import cust_filters_sql as filtersql
 # import logibot.modules.sql.welcome_sql as welcsql
-import Tianabot.modules.sql.locks_sql as locksql
+import logibot.modules.sql.locks_sql as locksql
 from logibot.modules.connection import connected
 
 
