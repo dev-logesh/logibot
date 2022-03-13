@@ -99,7 +99,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(text="꧁۝༒𝑰𝒏𝒇𝒐꧂", callback_data="about_"),
-        InlineKeyboardButton(text="꧁۝༒𝘿𝙤𝙣𝙖𝙩𝙚", url="https://t.me/cl_me_logesh"),
+        InlineKeyboardButton(text="꧁۝༒𝘿𝙤𝙣𝙖𝙩𝙚",  url=f"{DONATION_LINK}"),
     ],
    [
         InlineKeyboardButton(text="꧁۝༒𝑼𝒑𝒅𝒂𝒕𝒆𝒔꧂", url=f"http://t.me/{UPDATE_CHANNEL}"),
