@@ -116,7 +116,7 @@ if ENV:
         raise Exception("Your blacklisted chats list does not contain valid integers.")
 
 else:
-    from Tianabot.config import Development as Config
+    from logibot.config import Development as Config
 
     TOKEN = Config.TOKEN
 
