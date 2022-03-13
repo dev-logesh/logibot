@@ -10,7 +10,7 @@ from logibot import OWNER_ID
 from logibot import TEMP_DOWNLOAD_DIRECTORY as path
 from logibot import TEMP_DOWNLOAD_DIRECTORY
 from datetime import datetime
-water = './Tianabot/resources/IMG_20210215_151841_124.jpg'
+water = './logibot/resources/IMG_20210215_151841_124.jpg'
 client = tbot
 
 @register(pattern=r"^/send ?(.*)")
@@ -56,7 +56,7 @@ async def install(event):
             downloaded_file_name = (
                 await event.client.download_media(  # pylint:disable=E0602
                     await event.get_reply_message(),
-                    "Tianabot/modules/",  # pylint:disable=E0602
+                    "logibot/modules/",  # pylint:disable=E0602
                 )
             )
             if "(" not in downloaded_file_name:
@@ -81,15 +81,15 @@ async def install(event):
     await asyncio.sleep(3)
     await event.delete()
 
-from Tianabot import telethn as tbot, OWNER_ID, DEV_USERS
-from Tianabot.events import register
+from logibot import telethn as tbot, OWNER_ID, DEV_USERS
+from logibot.events import register
 import os
 import asyncio
 import os
 import time
 from datetime import datetime
-from Tianabot import TEMP_DOWNLOAD_DIRECTORY as path
-from Tianabot import TEMP_DOWNLOAD_DIRECTORY
+from logibot import TEMP_DOWNLOAD_DIRECTORY as path
+from logibot import TEMP_DOWNLOAD_DIRECTORY
 from datetime import datetime
 import asyncio
 import os
@@ -129,7 +129,7 @@ client = tbot
 import time
 from io import BytesIO
 from pathlib import Path
-from Tianabot import telethn as borg
+from logibot import telethn as borg
 from telethon import functions, types
 from telethon.errors import PhotoInvalidDimensionsError
 from telethon.errors.rpcerrorlist import YouBlockedUserError
