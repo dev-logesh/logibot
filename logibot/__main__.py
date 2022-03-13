@@ -95,18 +95,18 @@ PM_START_TEXT = """
 
 buttons = [
     [
-        InlineKeyboardButton(text="❓ 𝘾𝙤𝙢𝙢𝙖𝙣𝙙 𝙃𝙚𝙡𝙥 ❗️", callback_data="logi_"),
+        InlineKeyboardButton(text="꧁۝༒𝑯𝒆𝒍𝒑 𝑪𝒐𝒎𝒎𝒂𝒏𝒅 ꧂", callback_data="logi_"),
     ],
     [
-        InlineKeyboardButton(text="👩‍💻 𝙄𝙣𝙛𝙤", callback_data="about_"),
-        InlineKeyboardButton(text="𝘿𝙤𝙣𝙖𝙩𝙚 💰", url="https://t.me/cl_me_logesh"),
+        InlineKeyboardButton(text="꧁۝༒𝑰𝒏𝒇𝒐꧂", callback_data="about_"),
+        InlineKeyboardButton(text="꧁۝༒𝘿𝙤𝙣𝙖𝙩𝙚", url="https://t.me/cl_me_logesh"),
     ],
    [
-        InlineKeyboardButton(text="📇 𝙐𝙥𝙙𝙖𝙩𝙚𝙨", url=f"http://t.me/{UPDATE_CHANNEL}"),
-        InlineKeyboardButton(text="𝙎𝙪𝙥𝙥𝙤𝙧𝙩 🫂", url=f"https://t.me/{SUPPORT_CHAT}"),
+        InlineKeyboardButton(text="꧁۝༒𝑼𝒑𝒅𝒂𝒕𝒆𝒔꧂", url=f"http://t.me/{UPDATE_CHANNEL}"),
+        InlineKeyboardButton(text="꧁۝༒𝑺𝒖𝒑𝒑𝒐𝒓𝒕꧂", url=f"https://t.me/{SUPPORT_CHAT}"),
     ],
     [  
-        InlineKeyboardButton(text="➕️ 𝘼𝙙𝙙 𝙢𝙚 𝙩𝙤 𝙔𝙤𝙪𝙧 𝙂𝙧𝙤𝙪𝙥 ➕️", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"),
+        InlineKeyboardButton(text="⚚𝑨𝒅𝒅 𝑴𝒆 𝑻𝒐 𝒀𝒐𝒖𝒓 𝑮𝒓𝒐𝒖𝒑✔️", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"),
     ], 
     
 ]
@@ -251,8 +251,8 @@ def start(update: Update, context: CallbackContext):
                     sql.num_chats()),
                 reply_markup=InlineKeyboardMarkup(
                  [
-                  [InlineKeyboardButton(text="📄 Source", callback_data="logi_source"), 
-                   InlineKeyboardButton(text="🫂 Support", url=f"https://t.me/{SUPPORT_CHAT}")]
+                  [InlineKeyboardButton(text="◤𝑺𝒐𝒖𝒓𝒄𝒆 𝑪𝒐𝒅𝒆꧂", callback_data="logi_source"), 
+                   InlineKeyboardButton(text="꧁۝༒𝑺𝒖𝒑𝒑𝒐𝒓𝒕꧂", url=f"https://t.me/{SUPPORT_CHAT}")]
                  ]
               ),
                 parse_mode=ParseMode.MARKDOWN,              
@@ -373,12 +373,12 @@ def logi_callback_handler(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                     InlineKeyboardButton(text="➕ 𝘼𝙡𝙡 𝘾𝙤𝙢𝙢𝙖𝙣𝙙𝙨 ➕", callback_data="help_back"),
+                     InlineKeyboardButton(text="꧁۝𝑪𝒐𝒎𝒎𝒂𝒏𝒅 ꧂", callback_data="help_back"),
                     ],                           
-                    [InlineKeyboardButton(text="𝙃𝙤𝙬 𝙏𝙤 𝙐𝙨𝙚 𝙈𝙚 ❓", callback_data="logi_help"),
-                     InlineKeyboardButton(text="𝙈𝙪𝙨𝙞𝙘 𝘽𝙤𝙩 🎧", callback_data="logi_music")],
+                    [InlineKeyboardButton(text="꧁۝𝙃𝙤𝙬 𝙏𝙤 𝙐𝙨𝙚 𝙈𝙚 ❓", callback_data="logi_help"),
+                     InlineKeyboardButton(text="꧁۝𝙈𝙪𝙨𝙞𝙘 𝘽𝙤𝙩 🎧", callback_data="logi_music")],
                     [InlineKeyboardButton(text="🔙 𝘽𝙖𝙘𝙠", callback_data="tiana_back"),
-                     InlineKeyboardButton(text="𝙁𝙪𝙣 𝙏𝙤𝙤𝙡𝙨 ⚙", callback_data="logi_tools")],
+                     InlineKeyboardButton(text="꧁۝𝙁𝙪𝙣 𝙏𝙤𝙤𝙡𝙨 ⚙", callback_data="logi_tools")],
                 ]
             ),
         )
@@ -404,7 +404,7 @@ def logi_callback_handler(update, context):
 Cʟɪᴄᴋ  Bᴇʟᴏᴡ  Bᴜᴛᴛᴏɴ  Tᴏ  Aᴅᴅ  Bᴏᴛ  Iɴ  Yᴏᴜʀ  Gʀᴏᴜᴘ. Bᴀsɪᴄ  Tᴏᴜʀ  Sᴛᴀʀᴛᴇᴅ  Tᴏ  Kɴᴏᴡ  Aʙᴏᴜᴛ  Hᴏᴡ  Tᴏ  Usᴇ  Mᴇ*""",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
-              [[InlineKeyboardButton(text="𝙎𝙚𝙩𝙪𝙥 𝙏𝙪𝙩𝙤𝙧𝙞𝙖𝙡 🎥", callback_data="logi_vida")],
+              [[InlineKeyboardButton(text="꧁۝༒𝙎𝙚𝙩𝙪𝙥 𝙏𝙪𝙩𝙤𝙧𝙞𝙖𝙡 🎥", callback_data="logi_vida")],
                [InlineKeyboardButton(text="➕️ 𝘼𝙙𝙙 𝙢𝙚 𝙩𝙤 𝙔𝙤𝙪𝙧 𝙂𝙧𝙤𝙪𝙥 ➕️", url="https://t.me/{BOT_USERNAME}?startgroup=true")],       
                 [InlineKeyboardButton(text="🔙 𝘽𝙖𝙘𝙠", callback_data="logi_"),
                  InlineKeyboardButton(text="➡️", callback_data="logi_helpa")]
@@ -531,7 +531,7 @@ Aɢᴀɪɴ  Tʜᴀɴᴋs  Fᴏʀ  Usɪɴɢ  Mᴇ
             reply_markup=InlineKeyboardMarkup(
                 [[InlineKeyboardButton(text="➕ 𝘼𝙡𝙡 𝘾𝙤𝙢𝙢𝙖𝙣𝙙𝙨 ➕", callback_data="help_back")],
                 [InlineKeyboardButton(text="⬅️", callback_data="logi_helpd"),
-                InlineKeyboardButton(text="𝙈𝙖𝙞𝙣 𝙈𝙚𝙣𝙪", callback_data="logi_")]]
+                InlineKeyboardButton(text="꧁۝༒𝙈𝙖𝙞𝙣 𝙈𝙚𝙣𝙪", callback_data="logi_")]]
             ),
         )
     elif query.data == "logi_music":
@@ -546,11 +546,11 @@ Aɢᴀɪɴ  Tʜᴀɴᴋs  Fᴏʀ  Usɪɴɢ  Mᴇ
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
-               [[InlineKeyboardButton(text="𝙎𝙚𝙩𝙪𝙥 𝙏𝙪𝙩𝙤𝙧𝙞𝙖𝙡 🎥", callback_data="logi_vidb")],
-                [InlineKeyboardButton(text="𝙋𝙡𝙖𝙮 𝘾𝙤𝙢𝙢𝙖𝙣𝙙𝙨", callback_data="logi_musica"),
-                 InlineKeyboardButton(text="𝘽𝙤𝙩 𝘾𝙤𝙢𝙢𝙖𝙣𝙙𝙨", callback_data="logi_musicc")],
-                [InlineKeyboardButton(text="𝘼𝙙𝙢𝙞𝙣 𝘾𝙤𝙢𝙢𝙖𝙣𝙙𝙨", callback_data="logi_musicb"),
-                 InlineKeyboardButton(text="𝙀𝙭𝙩𝙧𝙖 𝘾𝙤𝙢𝙢𝙖𝙣𝙙𝙨", callback_data="logi_musicd")],
+               [[InlineKeyboardButton(text="꧁۝༒𝙎𝙚𝙩𝙪𝙥 𝙏𝙪𝙩𝙤𝙧𝙞𝙖𝙡 🎥", callback_data="logi_vidb")],
+                [InlineKeyboardButton(text="꧁۝༒𝙋𝙡𝙖𝙮 𝘾𝙤𝙢𝙢𝙖𝙣𝙙𝙨", callback_data="logi_musica"),
+                 InlineKeyboardButton(text="꧁۝༒𝘽𝙤𝙩 𝘾𝙤𝙢𝙢𝙖𝙣𝙙𝙨", callback_data="logi_musicc")],
+                [InlineKeyboardButton(text="꧁۝༒𝘼𝙙𝙢𝙞𝙣 𝘾𝙤𝙢𝙢𝙖𝙣𝙙𝙨", callback_data="logi_musicb"),
+                 InlineKeyboardButton(text="꧁۝༒𝙀𝙭𝙩𝙧𝙖 𝘾𝙤𝙢𝙢𝙖𝙣𝙙𝙨", callback_data="logi_musicd")],
                 [InlineKeyboardButton(text="🔙 𝘽𝙖𝙘𝙠", callback_data="logi_")]
                ]
             ),
@@ -706,12 +706,12 @@ Support
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Nᴇᴡꜱ", url=f"t.me/{UPDATE_CHANNEL}"),
-                    InlineKeyboardButton(text="Dᴏɴᴀᴛᴇ Mᴇ", url=f"{DONATION_LINK}"),
+                    InlineKeyboardButton(text="꧁۝༒Nᴇᴡꜱ", url=f"t.me/{UPDATE_CHANNEL}"),
+                    InlineKeyboardButton(text="꧁۝༒Dᴏɴᴀᴛᴇ Mᴇ", url=f"{DONATION_LINK}"),
                  ],
                  [
-                    InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url=f"t.me/{SUPPORT_CHAT}"),
-                    InlineKeyboardButton(text="Uᴘᴅᴀᴛᴇꜱ", url=f"https://t.me/{UPDATE_CHANNEL}"),
+                    InlineKeyboardButton(text="꧁۝༒Sᴜᴘᴘᴏʀᴛ", url=f"t.me/{SUPPORT_CHAT}"),
+                    InlineKeyboardButton(text="꧁۝༒Uᴘᴅᴀᴛᴇꜱ", url=f"https://t.me/{UPDATE_CHANNEL}"),
                  ],
                  [
                     InlineKeyboardButton(text="🔙 𝘽𝙖𝙘𝙠", callback_data="about_"),
@@ -731,14 +731,14 @@ Click on below buttons and check amazing tools for users.*""",
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Sᴇᴀʀᴄʜ", callback_data="logi_toola"),
-                    InlineKeyboardButton(text="Tᴀɢᴀʟʟ", callback_data="logi_toolb"),
-                    InlineKeyboardButton(text="Kᴀʀᴍᴀ", callback_data="logi_toolc"),
+                    InlineKeyboardButton(text="꧁۝༒Sᴇᴀʀᴄʜ", callback_data="logi_toola"),
+                    InlineKeyboardButton(text="꧁۝༒Tᴀɢᴀʟʟ", callback_data="logi_toolb"),
+                    InlineKeyboardButton(text="꧁۝༒Kᴀʀᴍᴀ", callback_data="logi_toolc"),
                  ],
                  [
-                    InlineKeyboardButton(text="Fᴏɴᴛ Gᴇɴ", callback_data="logi_toold"),
-                    InlineKeyboardButton(text="Pᴀꜱᴛᴇ", callback_data="logi_toole"),
-                    InlineKeyboardButton(text="Tᴇʟᴇɢʀᴀᴘʜ", callback_data="logi_toolf"),
+                    InlineKeyboardButton(text="꧁۝༒Fᴏɴᴛ Gᴇɴ", callback_data="logi_toold"),
+                    InlineKeyboardButton(text="꧁۝༒Pᴀꜱᴛᴇ", callback_data="logi_toole"),
+                    InlineKeyboardButton(text="꧁۝༒Tᴇʟᴇɢʀᴀᴘʜ", callback_data="logi_toolf"),
                  ],
                  [
                     InlineKeyboardButton(text="🔙 𝘽𝙖𝙘𝙠", callback_data="logi_"),
@@ -834,7 +834,7 @@ DOWNVOTE - Use downvote keywords like "-", "-1", etc to downvote a cb.message.
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="📄 𝙎𝙤𝙪𝙧𝙘𝙚", url="github.com/logi-lab/logibot"),
+                    InlineKeyboardButton(text="◤𝑺𝒐𝒖𝒓𝒄𝒆 𝑪𝒐𝒅𝒆꧂", url="github.com/logi-lab/logibot"),
                  ]
                 ]
             ),
@@ -863,12 +863,12 @@ def logi_about_callback(update: Update, context: CallbackContext):
             reply_markup=InlineKeyboardMarkup(
                [
                  [
-                     InlineKeyboardButton(text="❗️ 𝘼𝙗𝙤𝙪𝙩", callback_data="logi_about"),
-                     InlineKeyboardButton(text="📄 𝙎𝙤𝙪𝙧𝙘𝙚", callback_data="logi_source"),
+                     InlineKeyboardButton(text="꧁۝༒𝑰𝒏𝒇𝒐꧂", callback_data="logi_about"),
+                     InlineKeyboardButton(text="◤𝑺𝒐𝒖𝒓𝒄𝒆 𝑪𝒐𝒅𝒆꧂", callback_data="logi_source"),
                  ],
                  [  
-                    InlineKeyboardButton(text="🫂 𝙎𝙪𝙥𝙥𝙤𝙧𝙩", callback_data="logi_support"),
-                    InlineKeyboardButton(text="👨‍✈️ 𝙊𝙬𝙣𝙚𝙧", url=f"t.me/{OWNER_USERNAME}"),
+                    InlineKeyboardButton(text="꧁۝༒𝑺𝒖𝒑𝒑𝒐𝒓𝒕꧂", callback_data="logi_support"),
+                    InlineKeyboardButton(text="꧁۝༒𝑶𝒘𝒏𝒆𝒓꧂", url=f"t.me/{OWNER_USERNAME}"),
                  ],
                  [
                      InlineKeyboardButton(text="𝙏𝙚𝙧𝙢𝙨 𝘼𝙣𝙙 𝘾𝙤𝙣𝙙𝙞𝙩𝙞𝙤𝙣𝙨❗️", callback_data="logi_term"),
