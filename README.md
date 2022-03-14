@@ -71,11 +71,6 @@ $ cp sample.env .env
 ```console
  $ bash start
 ```
-## 🎭 Preview
-<p align="center">
-  <img src="https://store-images.s-microsoft.com/image/apps.56117.13510798887380474.a6b0a1e0-8433-417c-af5a-aed64dfe8859.c85b64d8-e3dc-4a20-b3bd-422c1dafd52e?w=540&h=432&q=60">
-</p>
-
 
 <h2 align="center">
    Other Deployment Methods
@@ -85,6 +80,15 @@ $ cp sample.env .env
 <a href="https://dashboard.heroku.com/new?template=https://github.com/LOGI-LAB/logibot"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="250""/</a>  
 
 </p>
+   
+
+    
+  ## 🎭 Preview
+<p align="center">
+  <img src="https://te.legra.ph/file/2c16c36186e1a026b3256.jpg"> 
+   <img src="https://te.legra.ph/file/3d2b3b2915dfa783194ed.jpg">
+</p>
+
  
 
 
