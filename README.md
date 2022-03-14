@@ -92,8 +92,8 @@ $ cp sample.env .env
 </h3>
 
 ```console
-$ git clone https://github.com/Prince-Botz/TianaBot
-$ cd TianaBot
+$ git clone https://github.com/logi-lab/logibot
+$ cd logiBot
 $ pip3 install -U -r requirements.txt
 $ cp sample.env .env
 ```
@@ -124,7 +124,7 @@ $ cp sample.env .env
 
 <p align="center">
 <a href="https://t.me/logi_channel"><img src="https://img.shields.io/badge/logi%20Channel-blueviolet?style=for-the-badge&logo=telegram" width="200""/</a>
-<a href="https://t.me/cl_me_logesh"><img src="https://img.shields.io/badge/Contact%20Owner-blueviolet?style=for-the-badge&logo=telegram" width="202""/</a>  
+<a href="https://t.me/cl_me_logesh"><img src="https://img.shields.io/badge/Contact%20Owner-red?style=for-the-badge&logo=telegram" width="202""/</a>  
 </p>
 
 
