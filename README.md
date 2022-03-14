@@ -87,17 +87,6 @@ $ cp sample.env .env
 </p>
  
 
-<h3 align="center">
-    OR
-</h3>
-
-```console
-$ git clone https://github.com/logi-lab/logibot
-$ cd logiBot
-$ pip3 install -U -r requirements.txt
-$ cp sample.env .env
-```
-
 
 <h2 align="center">
    Config Vars
