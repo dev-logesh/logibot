@@ -377,7 +377,7 @@ def tiana_callback_handler(update, context):
                     ],                           
                     [InlineKeyboardButton(text="꧁۝𝙃𝙤𝙬 𝙏𝙤 𝙐𝙨𝙚 𝙈𝙚 ❓", callback_data="logi_help"),
                      InlineKeyboardButton(text="꧁۝𝙈𝙪𝙨𝙞𝙘 𝘽𝙤𝙩 🎧", callback_data="logi_music")],
-                    [InlineKeyboardButton(text="🔙 𝘽𝙖𝙘𝙠", callback_data="tiana_back"),
+                    [InlineKeyboardButton(text="🔙 𝘽𝙖𝙘𝙠", callback_data="logi_back"),
                      InlineKeyboardButton(text="꧁۝𝙁𝙪𝙣 𝙏𝙤𝙤𝙡𝙨 ⚙", callback_data="logi_tools")],
                 ]
             ),
@@ -405,7 +405,7 @@ Cʟɪᴄᴋ  Bᴇʟᴏᴡ  Bᴜᴛᴛᴏɴ  Tᴏ  Aᴅᴅ  Bᴏᴛ  Iɴ  Yᴏᴜ
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
               [[InlineKeyboardButton(text="꧁۝༒𝙎𝙚𝙩𝙪𝙥 𝙏𝙪𝙩𝙤𝙧𝙞𝙖𝙡 🎥", callback_data="logi_vida")],
-               [InlineKeyboardButton(text="➕️ 𝘼𝙙𝙙 𝙢𝙚 𝙩𝙤 𝙔𝙤𝙪𝙧 𝙂𝙧𝙤𝙪𝙥 ➕️", url="https://t.me/{BOT_USERNAME}?startgroup=true")],       
+               [InlineKeyboardButton(text="➕️ 𝘼𝙙𝙙 𝙢𝙚 𝙩𝙤 𝙔𝙤𝙪𝙧 𝙂𝙧𝙤𝙪𝙥 ➕️", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")],       
                 [InlineKeyboardButton(text="🔙 𝘽𝙖𝙘𝙠", callback_data="logi_"),
                  InlineKeyboardButton(text="➡️", callback_data="logi_helpa")]
               ]
@@ -419,7 +419,7 @@ Bᴇғᴏʀᴇ  Wᴇ  Gᴏ,  I  Nᴇᴇᴅ  Aᴅᴍɪɴ  Pᴇʀᴍɪssɪᴏɴs  
 1). Cʟɪᴄᴋ  Mᴀɴᴀɢᴇ  Gʀᴏᴜᴘ.
 2). Gᴏ  Tᴏ  Aᴅᴍɪɴɪsᴛʀᴀᴛᴏʀs  Aɴᴅ  Aᴅᴅ</b>  {BOT_USERNAME}  <b>As  Aᴅᴍɪɴ.
 3). Gɪᴠɪɴɢ  Fᴜʟʟ  Pᴇʀᴍɪssɪᴏɴs  Mᴀᴋᴇ  Tɪᴀɴᴀ  Fᴜʟʟʏ  Usᴇғᴜʟ</b>
-4). @cl_me_logesh</b>""",
+</b>""",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
               [[InlineKeyboardButton(text="⬅️", callback_data="logi_help"),
@@ -641,7 +641,7 @@ LOGI has a additional feature for non-admin users who want to use admin commands
 - Get Settings dashboard of a group. You can manage Auth Users Mode. Commands Mode from here.
 
 /ping
-- Ping the Bot and check Ram, Cpu etc stats of Tiana.""",
+- Ping the Bot and check Ram, Cpu etc stats of LOGI.""",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
                 [[InlineKeyboardButton(text="🔙 𝘽𝙖𝙘𝙠", callback_data="logi_music")]]
@@ -678,11 +678,9 @@ LOGI has a additional feature for non-admin users who want to use admin commands
             
 Bot Admins
                        
-• @{OWNER_USERNAME}, bot creator and .
+• @{OWNER_USERNAME}, bot creator .
 
-> @cl_me_logesh bot coder,maintainer,creator,hacker .
-
-• The Doctor, server manager and developer.
+• [꧁۝༒LOGI꧂](https://t.me/cl_me_logesh) The Doctor, Coder , server manager and developer.
             
 • Manuel 5, developer.
             
