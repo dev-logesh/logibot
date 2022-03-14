@@ -65,7 +65,7 @@ RUN apt update && apt upgrade -y && \
 RUN pip3 install --upgrade pip setuptools
 
 # Copy Python Requirements to /root/logibot
-RUN git clone -b shiken https://github.com/teamofdevil-x/tiana /root/Tianabot
+RUN git clone -b shiken https://github.com/logi-lab/logibot /root/Tianabot
 WORKDIR /root/logibot
 
 #Copy config file to /root/logibot
