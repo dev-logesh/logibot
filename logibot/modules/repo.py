@@ -11,9 +11,9 @@ from logibot import pbot, START_IMG, SUPPORT_CHAT
 async def repo(_, message):
     await message.reply_photo(
         photo=START_IMG,
-        caption=f"""✨ **Hey I'm LOGI Robot** 
+        caption=f"""✨ **Hey I'm LOGI ROBOT** 
 
-**Owner : [Prince](https://t.me/cl_me_logesh)**
+**Owner : [꧁۝༒LOGI꧂](https://t.me/cl_me_logesh)**
 **Python Version :** `{y()}`
 **Library Version :** `{o}`
 **Telethon Version :** `{s}`
@@ -24,9 +24,9 @@ async def repo(_, message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton(text="📄 Source", callback_data="logi_source"), 
+                    InlineKeyboardButton(text="꧁SOURCE۝꧂", url=f"https://github.com/LOGI-LAB/logibot"), 
                     InlineKeyboardButton(
-                        "🫂 Support", url=f"https://t.me/{SUPPORT_CHAT}")
+                        "꧁۝༒𝑺𝒖𝒑𝒑𝒐𝒓𝒕꧂", url=f"https://t.me/{SUPPORT_CHAT}")
                 ]
             ]
         )
