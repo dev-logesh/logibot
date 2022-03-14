@@ -3,6 +3,31 @@ from typing import Dict, List
 from logibot import NO_LOAD
 from telegram import MAX_MESSAGE_LENGTH, Bot, InlineKeyboardButton, ParseMode
 from telegram.error import TelegramError
+from logibot import (
+    ALLOW_EXCL,
+    CERT_PATH,
+    DONATION_LINK,
+    LOGGER,
+    OWNER_ID,
+    PORT,
+    BOT_TUT,
+    MUSICBOT_TUT,
+    UPDATE_CHANNEL,
+    BOT_USERNAME,
+    BOT_NAME,
+    ASS_USERNAME,
+    START_IMG,
+    TOKEN,
+    URL,
+    OWNER_USERNAME,
+    WEBHOOK,
+    SUPPORT_CHAT,
+    dispatcher,
+    StartTime,
+    telethn,
+    pbot,
+    updater,
+)
 
 
 class EqInlineKeyboardButton(InlineKeyboardButton):
@@ -74,9 +99,9 @@ def paginate_modules(page_n: int, module_dict: Dict, prefix, chat=None) -> List:
     else:
         pairs += [
                   [
-                    EqInlineKeyboardButton("╰✰ Cʜᴀɴɴᴇʟ", url="t.me/TianaxUpdates"), 
-                    EqInlineKeyboardButton("「 Bᴀᴄᴋ 」", callback_data="tiana_"), 
-                    EqInlineKeyboardButton("Sᴜᴘᴘᴏʀᴛ ✰╮", url="t.me/TianaxSupport")
+                    EqInlineKeyboardButton("╰✰ Cʜᴀɴɴᴇʟ", url=f"http://t.me/{UPDATE_CHANNEL}") 
+                    EqInlineKeyboardButton("「 Bᴀᴄᴋ 」", callback_data="logi_"), 
+                    EqInlineKeyboardButton("Sᴜᴘᴘᴏʀᴛ ✰╮", url=f"https://t.me/{SUPPORT_CHAT}"),
                   ]
                  ]
 
