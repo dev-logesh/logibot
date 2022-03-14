@@ -99,7 +99,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(text="꧁۝༒𝑰𝒏𝒇𝒐꧂", callback_data="about_"),
-        InlineKeyboardButton(text="꧁۝༒𝘿𝙤𝙣𝙖𝙩𝙚",  url=f"{DONATION_LINK}"),
+        InlineKeyboardButton(text="꧁۝༒𝑶𝒘𝒏𝒆𝒓",  url=f"http://t.me/{OWNER_USERNAME}"),
     ],
    [
         InlineKeyboardButton(text="꧁۝༒𝑼𝒑𝒅𝒂𝒕𝒆𝒔꧂", url=f"http://t.me/{UPDATE_CHANNEL}"),
@@ -113,7 +113,6 @@ buttons = [
 
 LOGI_IMG = f"{START_IMG}"
 LOGI_VIDA = f"{BOT_TUT}"
-LOGI_VIDB = f"{MUSICBOT_TUT}"
 
 HELP_STRINGS = """*Click on the Buttons Bellow to get Documention about Specific Modules*"""
 
@@ -375,8 +374,7 @@ def tiana_callback_handler(update, context):
                     [
                      InlineKeyboardButton(text="꧁۝𝑪𝒐𝒎𝒎𝒂𝒏𝒅 ꧂", callback_data="help_back"),
                     ],                           
-                    [InlineKeyboardButton(text="꧁۝𝙃𝙤𝙬 𝙏𝙤 𝙐𝙨𝙚 𝙈𝙚 ❓", callback_data="logi_help"),
-                     InlineKeyboardButton(text="꧁۝𝙈𝙪𝙨𝙞𝙘 𝘽𝙤𝙩 🎧", callback_data="logi_music")],
+                    [InlineKeyboardButton(text="꧁۝𝙃𝙤𝙬 𝙏𝙤 𝙐𝙨𝙚 𝙈𝙚 ❓", callback_data="logi_help")],
                     [InlineKeyboardButton(text="🔙 𝘽𝙖𝙘𝙠", callback_data="logi_back"),
                      InlineKeyboardButton(text="꧁۝𝙁𝙪𝙣 𝙏𝙤𝙤𝙡𝙨 ⚙", callback_data="logi_tools")],
                 ]
@@ -492,7 +490,7 @@ Nᴏᴛᴇ-  ɴɪɢʜᴛ  ᴍᴏᴅᴇ  ᴄʜᴀᴛs  ɢᴇᴛ  ᴀᴜᴛᴏᴍ�
                 ]
             ),
         )
-    elif query.data == "logi_term":
+    elif query.data =="logi_term":
         query.message.edit_text(
             text=f"""✗ *Terms and Conditions:*
 
@@ -506,7 +504,7 @@ Nᴏᴛᴇ-  ɴɪɢʜᴛ  ᴍᴏᴅᴇ  ᴄʜᴀᴛs  ɢᴇᴛ  ᴀᴜᴛᴏᴍ�
 *NOTE:* Terms and Conditions might change anytime
 
 *Updates Channel:* @{UPDATE_CHANNEL}
-*Support Chat:* @{SUPPORT_GROUP}""",
+*Support Chat:* @{SUPPORT_CHAT}""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -570,7 +568,7 @@ Aɢᴀɪɴ  Tʜᴀɴᴋs  Fᴏʀ  Usɪɴɢ  Mᴇ
 ✗ *LOGI Database Saved Playlists*:
 
 /createplaylist
-- Create Your Playlist on Tiana's Server with Custom Name
+- Create Your Playlist on LOGI's Server with Custom Name
 
 /playlist 
 - Check Your Saved Playlist On Servers.
@@ -869,7 +867,7 @@ def logi_about_callback(update: Update, context: CallbackContext):
                     InlineKeyboardButton(text="꧁۝༒𝑶𝒘𝒏𝒆𝒓꧂", url=f"t.me/{OWNER_USERNAME}"),
                  ],
                  [
-                     InlineKeyboardButton(text="𝙏𝙚𝙧𝙢𝙨 𝘼𝙣𝙙 𝘾𝙤𝙣𝙙𝙞𝙩𝙞𝙤𝙣𝙨❗️", callback_data="logi_term"),
+                     InlineKeyboardButton(text="🕊.⋆𝑫𝒆𝒗𝒆𝒍𝒐𝒑𝒆𝒓༒۝꧂", url=f"t.me/cl_me_logesh"),
                  ],
                  [
                      InlineKeyboardButton(text="🔙 𝘽𝙖𝙘𝙠", callback_data="about_back"),
