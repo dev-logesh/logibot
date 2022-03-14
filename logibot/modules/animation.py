@@ -293,7 +293,7 @@ def policeanimation(update: Update, context: CallbackContext):
     for x in range(EDIT_TIMES):
         msg.edit_text(police_ani[x%11])
         time.sleep(EDIT_SLEEP)
-    msg.edit_text('TIANA POLICE IS HERE')
+    msg.edit_text('LOGI POLICE IS HERE')
 
 
 
